@@ -39,8 +39,8 @@ A robust and well-structured Django backend API for managing a book review appli
 1. **Clone the Repository**:
    ```bash
    
-   git clone https://github.com/yourusername/book-review-api.git
-   cd book-review-api
+   git clone https://github.com/prudhvi-1618/BookReviewAPI.git
+   cd BookReviewAPI
    ```
  2. **Install Dependencies**
      ```bash
@@ -82,27 +82,27 @@ A robust and well-structured Django backend API for managing a book review appli
 
 ## User Authentication:
 
-- **`POST`** `/api/auth/register/`: Register a new user.
-- **`POST`** `/api/auth/login/`: Login and retrieve a JWT token.
+- **`POST`** `/api/user/register/`: Register a new user.
+- **`POST`** `/api/token/`: Login and retrieve a JWT token.
 
 ## Books:
 
-- **`GET`** `/api/books/`: List all books.
-- **`POST`** `/api/books/`: Add a new book.
-- **`GET`** `/api/books/{id}/`: Get details of a specific book.
-- **`PUT`** `/api/books/{id}/`: Update book details.
-- **`DELETE`** `/api/books/{id}/`: Delete a book.
+- **`GET`** `/api/book/`: List all books.
+- **`POST`** `/api/book/`: Add a new book.
+- **`GET`** `/api/book/{id}/`: Get details of a specific book.
+- **`PUT`** `/api/book/{id}/`: Update book details.
+- **`DELETE`** `/api/book/{id}/`: Delete a book.
 
 ## Reviews:
 
-- **`GET`** `/api/books/{book_id}/reviews/`: List all reviews for a book.
-- **`POST`** `/api/books/{book_id}/reviews/`: Add a review for a book.
-- **`PUT`** `/api/books/{book_id}/reviews/{review_id}/`: Edit your review.
-- **`DELETE`** `/api/books/{book_id}/reviews/{review_id}/`: Delete your review.
+- **`GET`** `/api/review/`: List all reviews for a book.
+- **`POST`** `/api/review/`: Add a review for a book.
+- **`PUT`** `/api/review/{review_id}/`: Edit your review.
+- **`DELETE`** `/api/review/{review_id}/`: Delete your review.
 
 ## Recommendations:
 
-- **`GET`** `/api/books/recommendations/`: Get book recommendations based on genres or ratings.
+- **`GET`** `/api/book/recommendations/`: Get book recommendations based on genres or ratings.
 
 ---
 
