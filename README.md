@@ -105,6 +105,22 @@ A robust and well-structured Django backend API for managing a book review appli
 
 ---
 
+## API Documentation:
+
+### 1. Swagger UI
+
+The **Swagger UI** provides an interactive interface to explore and test API endpoints. To access the Swagger documentation:
+
+- Navigate to:  
+  **[http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)**
+
+### 2. Redoc UI
+
+The **Redoc UI** offers a clean and user-friendly interface for viewing API documentation. To access the Redoc documentation:
+
+- Navigate to:  
+  **[http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)**
+
 ### Note:
 
 Ensure you have proper authentication for the endpoints that require a JWT token. Pass the token in the `Authorization` header like this:
