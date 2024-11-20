@@ -41,6 +41,7 @@ A robust and well-structured Django backend API for managing a book review appli
    
    git clone https://github.com/prudhvi-1618/BookReviewAPI.git
    cd BookReviewAPI
+   cd backend
    ```
  2. **Install Dependencies**
      ```bash
@@ -48,9 +49,7 @@ A robust and well-structured Django backend API for managing a book review appli
        pip install -r requirements.txt
      ```  
  3.  **Set Up PostgreSQL Database**
-     ```bash
-       pip install -r requirements.txt
-      ```
+
         3.1. **Create a Database for the Project**
       ```bash
          psql -U postgres
